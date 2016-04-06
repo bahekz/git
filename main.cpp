@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-	int a;
-    cout << "Hello Sashka!" << endl;
-	cout << "asdsad"<<endl;
-	if(2>1)
+	int a, b[10];
+    cin>>a;
+	for(int i=0;i<a;i++)
 	{
-		cin>>a;
+		cin>>b[i];
 	}
+	
     getch();
     return 0;
 }
